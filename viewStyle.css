@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header Styles */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Table Data Styles */
+td {
+    padding: 12px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Alternate Row Background Color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Empty Data Row Styles */
+tr.no-data {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
